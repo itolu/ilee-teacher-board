@@ -9,6 +9,9 @@
     "paths": {
       "@/*": ["./src/*"]
     },
+    "jsx": "react-jsx",  // This should be 'react-jsx' or 'react'
+    "moduleResolution": "node",
+    "esModuleInterop": true,
     "noImplicitAny": false,
     "noUnusedParameters": false,
     "skipLibCheck": true,
