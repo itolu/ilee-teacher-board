@@ -12,6 +12,7 @@
     "jsx": "react",  // This should be 'react-jsx' or 'react'
     "moduleResolution": "node",
     "esModuleInterop": true,
+    "strict": true,
     "noImplicitAny": false,
     "noUnusedParameters": false,
     "skipLibCheck": true,
