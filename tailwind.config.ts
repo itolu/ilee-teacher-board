@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				ilee: {
+					lavender: 'hsl(var(--ilee-lavender))', // #ececfe, #ececff
+					purple: 'hsl(var(--ilee-purple))', // #7d78f7
+					cream: 'hsl(var(--ilee-cream))', // #fff7eb
+					green: 'hsl(var(--ilee-green))', // #f3feeb
 				}
+			},
+			fontFamily: {
+				buenos: ['Buenos Aires Trial', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
